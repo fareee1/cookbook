@@ -1,4 +1,8 @@
-
+.imgPost{
+  height: 200px;
+  
+}
 img:hover {
+ 
     cursor: pointer;
   }
