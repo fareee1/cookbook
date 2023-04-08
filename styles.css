@@ -5,4 +5,8 @@
 .imgPostg:hover {
  
     cursor: pointer;
-  }
+}
+p{
+  max-width: 600px;
+  text-align: center;
+}
