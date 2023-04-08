@@ -10,3 +10,9 @@ p{
   max-width: 600px;
   text-align: center;
 }
+@media screen and (max-width: 400px) {
+  #form {
+   
+    width: max-content;
+  }
+}
