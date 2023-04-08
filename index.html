@@ -19,46 +19,55 @@
     />
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg bg-body-tertiary shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm p-3 mb-5 bg-body-tertiary rounded">
       <div class="container-fluid">
-        <img height="50px" src="assets/Olá - Cooking Pot.png" alt="" />
+        <img height="50px"  src="assets/Olá - Cooking Pot.png" alt="">
         <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Recipes
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">post1</a></li>
-                <li><a class="dropdown-item" href="#">post2</a></li>
-                <li><a class="dropdown-item" href="#">post3</a></li>
-                <li><a class="dropdown-item" href="#">Kubba</a></li>
-                <li><a class="dropdown-item" href="#">Dolma</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutus">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Add a Recipe</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            >
+            Recipes
+          </a>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">post1</a></li>
+              <li><a class="dropdown-item" href="#">post2</a></li>
+              <li><a class="dropdown-item" href="#">post3</a></li>
+              <li><a class="dropdown-item" href="#">Kubba</a></li>
+              <li><a class="dropdown-item" href="#">Dolma</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+      
+    </div>
+  </div>
+  </nav>
   <SECTION>
   <div class="container text-center ">
     <div class="row gy-5 ">
@@ -175,18 +184,18 @@
 <hr class=" mx-auto my-5" style="width: 30%;"/>
 
  
-<section class="form">
+<section id="addrecipe">
   <form action="">
-    <div id="form" class="d-flex flex-column  align-items-center w-100">
-      <div class="mb-3" style="width: 400px;">
+    <div id="form" class="d-flex flex-column  align-items-center ">
+      <div class="mb-3" style="width: 300px;">
         <label for="formGroupExampleInput" class="form-label">Dish's Name</label>
         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Kabab">
       </div>
       <div class="mb-3" ">
         
-        <textarea name="" id="" cols="52" rows="3" >  ingredients</textarea>
+        <textarea name="" id="" cols="38" rows="3" >  ingredients</textarea>
       </div>
-      <div class="mb-3" style="width: 400px;">
+      <div class="mb-3" style="width: 300px;">
         <select class="form-select" id="inlineFormSelectPref">
           <option selected> stars</option>
           <option value="1">One Star</option>
@@ -196,7 +205,7 @@
           <option value="3">five Star</option>
         </select>
       </div>
-      <div class="mb-3" style="width: 400px;">
+      <div class="mb-3" style="width: 300px;">
         <select class="form-select" id="inlineFormSelectPref">
           <option selected> Time to cook</option>
           <option value="1">1hrs</option>
@@ -206,7 +215,7 @@
           <option value="3">2.5hrs</option>
         </select>
       </div>
-      <div class="mb-3" style="width: 400px;">
+      <div class="mb-3" style="width: 300px;">
         <button type="button" class="btn btn-secondary btn-md">Submit</button>
       </div>
       </div>
@@ -214,7 +223,7 @@
   </form>
 </section>
 <hr class=" mx-auto my-5" style="width: 30%;"/>
-<section class="">
+<section id="aboutus">
   <div class="container d-flex flex-lg-row ">
     <div class="d-flex flex-column align-items-center ">
       <img width="75%" src="assets/group cooking.jpg" alt="">
