@@ -13,7 +13,8 @@ p{
 @media screen and (max-width: 375px) {
   #form {
    
-    width: 250px;
+    width: 300px;
+    
     
   }
 }
