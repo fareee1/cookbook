@@ -7,7 +7,7 @@
     cursor: pointer;
 }
 
-.stopwatch-color {
+.icon-color {
   color: teal;
 }
 
@@ -32,3 +32,4 @@
 .card-body-width {
   width: 320px;
 }
+
