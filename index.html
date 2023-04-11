@@ -174,24 +174,45 @@
   </section>
 
   <hr class="mx-auto my-5" style="width: 30%;" />
-  <section class="form">
-    <div class="container d-flex flex-column align-items-center flex-wrap: wrap ">
-      <div class=" mb-3 ">
-        <label class="px-2" for="formGroupExampleInput" class="form-label">Dish's Name</label>
-        <input style="width: 17rem;" type="text" class="form-control-" id="formGroupExampleInput" placeholder="Kabab">
-      </div>
-      <div class="mb-3 d-flex flex-row align-items-center flex-wrap: wrap ">
-        <label class="px-2" for="formGroupExampleInput" class="form-label">Dish's Photo</label>
-        <input class="form-control form-control-sm" id="formFileSm" type="file">
-      </div>
-      <div class="form-outline w-25 mb-3 d-flex flex-row  flex-wrap: wrap">
-        <label style="margin-right: 30px" ; class="form-label d-block mr-5 " for="textAreaExample4">Dish's
-          ingredients</label>
-        <textarea class="form-control ml-3" id="textAreaExample4" rows="3"></textarea>
-      </div>
-    </div>
-    <hr class=" mx-auto my-5" style="width: 30%;" />
+  <section id="addrecipe">
+    <form action="">
+      <div id="form" class="d-flex flex-column  align-items-center w-100 ">
+        <div class="mb-3" style="width: 300px;">
+          <label for="formGroupExampleInput" class="form-label">Dish's Name</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Kabab">
+        </div>
+        <div class="mb-3" ">
+          
+          <textarea name="" id="" cols="38" rows="3" >  ingredients</textarea>
+        </div>
+        <div class="mb-3" style="width: 300px;">
+          <select class="form-select" id="inlineFormSelectPref">
+            <option selected> stars</option>
+            <option value="1">One Star</option>
+            <option value="2">Two Star</option>
+            <option value="3">Three Star</option>
+            <option value="3">Four Star</option>
+            <option value="3">five Star</option>
+          </select>
+        </div>
+        <div class="mb-3" style="width: 300px;">
+          <select class="form-select" id="inlineFormSelectPref">
+            <option selected> Time to cook</option>
+            <option value="1">1hrs</option>
+            <option value="2">1.5hrs</option>
+            <option value="3">1.7hrs</option>
+            <option value="3">2hrs</option>
+            <option value="3">2.5hrs</option>
+          </select>
+        </div>
+        <div class="mb-3" style="width: 300px;">
+          <button type="button" class="btn btn-secondary btn-md">Submit</button>
+        </div>
+        </div>
+      </fieldset>
+    </form>
   </section>
+  <hr class=" mx-auto my-5" style="width: 30%;"/>
   <section class="">
     <div class="container d-flex flex-lg-row ">
       <div class="d-flex flex-column align-items-center ">
