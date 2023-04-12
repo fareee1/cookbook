@@ -30,14 +30,13 @@
             <a class="nav-link" href="About Us.html">About Us</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Recipes
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" style="height: 5px;" href="#">Oreo Cheesecake</a></li>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="oreo-cheesecake.html">Oreo Cheesecake</a></li>
               <li><a class="dropdown-item" href="spaghetti.html">Spaghetti and Meatballs</a></li>
-              <li><a class="dropdown-item" href="vegetable-salad.html">Veggy salad</a></li>
+              <li><a class="dropdown-item" href="vegetable-salad.html">Veggy Salad</a></li>
               <li><a class="dropdown-item" href="kubba.html">Kuba</a></li>
               <li><a class="dropdown-item" href="Dolma.html">Dolma</a></li>
             </ul>
@@ -174,24 +173,45 @@
   </section>
 
   <hr class="mx-auto my-5" style="width: 30%;" />
-  <section class="form">
-    <div class="container d-flex flex-column align-items-center flex-wrap: wrap ">
-      <div class=" mb-3 ">
-        <label class="px-2" for="formGroupExampleInput" class="form-label">Dish's Name</label>
-        <input style="width: 17rem;" type="text" class="form-control-" id="formGroupExampleInput" placeholder="Kabab">
-      </div>
-      <div class="mb-3 d-flex flex-row align-items-center flex-wrap: wrap ">
-        <label class="px-2" for="formGroupExampleInput" class="form-label">Dish's Photo</label>
-        <input class="form-control form-control-sm" id="formFileSm" type="file">
-      </div>
-      <div class="form-outline w-25 mb-3 d-flex flex-row  flex-wrap: wrap">
-        <label style="margin-right: 30px" ; class="form-label d-block mr-5 " for="textAreaExample4">Dish's
-          ingredients</label>
-        <textarea class="form-control ml-3" id="textAreaExample4" rows="3"></textarea>
-      </div>
-    </div>
-    <hr class=" mx-auto my-5" style="width: 30%;" />
+  <section id="addrecipe">
+    <form action="">
+      <div id="form" class="d-flex flex-column  align-items-center w-100 ">
+        <div class="mb-3" style="width: 300px;">
+          <label for="formGroupExampleInput" class="form-label">Dish's Name</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Kabab">
+        </div>
+        <div class="mb-3" ">
+          
+          <textarea name="" id="" cols="38" rows="3" >  ingredients</textarea>
+        </div>
+        <div class="mb-3" style="width: 300px;">
+          <select class="form-select" id="inlineFormSelectPref">
+            <option selected> stars</option>
+            <option value="1">One Star</option>
+            <option value="2">Two Star</option>
+            <option value="3">Three Star</option>
+            <option value="3">Four Star</option>
+            <option value="3">five Star</option>
+          </select>
+        </div>
+        <div class="mb-3" style="width: 300px;">
+          <select class="form-select" id="inlineFormSelectPref">
+            <option selected> Time to cook</option>
+            <option value="1">1hrs</option>
+            <option value="2">1.5hrs</option>
+            <option value="3">1.7hrs</option>
+            <option value="3">2hrs</option>
+            <option value="3">2.5hrs</option>
+          </select>
+        </div>
+        <div class="mb-3" style="width: 300px;">
+          <button type="button" class="btn btn-secondary btn-md">Submit</button>
+        </div>
+        </div>
+      </fieldset>
+    </form>
   </section>
+  <hr class=" mx-auto my-5" style="width: 30%;"/>
   <section class="">
     <div class="container d-flex flex-lg-row ">
       <div class="d-flex flex-column align-items-center ">
@@ -206,6 +226,89 @@
       </div>
 
   </section>
+  
+  <footer class="text-center text-lg-start bg-light text-muted">
+  <section> 
+    
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+           
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            
+              <h6 class="text-uppercase fw-bold mb-4">
+                <br />
+                <img height="50px" src="assets/Olá - Cooking Pot.png" alt="">
+                <i class="bi "></i> </i>Cookbook
+              </h6>
+              <p>
+                Promising company with culinary ambitions.
+              </p>
+            </div>
+           
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <br />
+              <h6 class="text-uppercase fw-bold mb-4">
+                Recipes
+              </h6>
+              <p>
+                <a href="oreo-cheesecake.html" class="text-reset">Oreo Cheesecake</a>
+              </p>
+              <p>
+                <a href="spaghetti.html" class="text-reset">Spaghetti and Meatballs</a>
+              </p>
+              <p>
+                <a href="vegetable-salad.html" class="text-reset">Veggy salad</a>
+              </p>
+              <p>
+                <a href="kubba.html" class="text-reset">Kubba</a>
+              </p>
+              <p>
+                <a href="Dolma.html" class="text-reset">Dolma</a>
+              </p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <br />
+              <h6 class="text-uppercase fw-bold mb-4">
+                Useful links
+              </h6>
+              <p>
+                <a href="https://www.google.com/search?q=google+maps+restaurant+near+me&biw=1536&bih=721&sxsrf=APwXEdcPdqxjtei7c4_UCxbTyNirOLDIYQ%3A1681248134594&ei=hs81ZIfpI-eExc8PkJaxiAo&oq=google+maps+resaurant+near&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgcIABANEIAEMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yCAgAEIoFEIYDMggIABCKBRCGAzoKCAAQRxDWBBCwAzoNCAAQRxDWBBDJAxCwAzoLCAAQigUQkgMQsAM6BAgjECc6CAgAEIoFEJECOggILhCKBRCRAjoHCAAQigUQQzoNCC4QigUQxwEQ0QMQQzoFCAAQgAQ6CggAEIAEEBQQhwI6CAgAEBYQHhAPOggIABAIEB4QDToGCAAQHhANSgQIQRgAUP0NWOhBYPxJaAFwAXgAgAHaAYgBuxaSAQY4LjE3LjGYAQCgAQHIAQrAAQE&sclient=gws-wiz-serp" class="text-reset">Restaurants nearby</a>
+              </p>
+              <p>
+                <a href="https://www.amazon.de/s?k=kitchen+toolds&crid=8U44PW2G2RFC&sprefix=kitchen+toolds%2Caps%2C180&ref=nb_sb_noss_2" class="text-reset">Kitchen tools & accessories </a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <br />
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p> <i class="bi bi-house-door-fill"> </i> New York, NY 10012, US</p>
+              <p> <i class="bi bi-envelope-at-fill"> </i></i>info@example.com
+              </p>
+              <p><i class="bi bi-telephone-fill"> </i> + 01 234 567 88</p>
+              <p><i class="bi bi-telephone-fill"> </i> + 01 234 567 89</p>
+          
+              <a href="#" class="bi bi-instagram p-3"></a> 
+              <a href="#" i class="bi bi-facebook p-3"></a> 
+              <a href="#" i class="bi bi-youtube p-3"></a> 
+             
+            </div>
+            
+          </div>
+        
+        </div>
+      </section>
+     
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2023 Copyright:
+        <a class="text-reset fw-bold" href="">cookbooke.com</a>
+      </div>
+    </section>
+  </footer>
+
 
   
 
